@@ -6,6 +6,7 @@ import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import nuevoLogo from "../../suitcase.png";
 import github from "../assets/socialmedia/github.png"
+import linkedin from "../assets/socialmedia/linkedin.png"
 
 const Navbar = () => {
   const [active, setActive] = useState(" ");
@@ -42,11 +43,14 @@ const Navbar = () => {
             </li>
             
           ))}
-          
-          <a href="https://github.com/GonzaloDeCastro" target="_blank" rel="noopener noreferrer">
-          <img style={{ cursor: "pointer" }} src={github} alt="github" />
-          </a>
-      
+          <div style={{marginTop: '-5px',width:'100px',display:'flex', justifyContent:'space-around', alignContent:'space-around'}}>
+            <a href="https://github.com/GonzaloDeCastro" target="_blank" rel="noopener noreferrer">
+              <img style={{ cursor: "pointer" }} src={github} alt="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/gonzalo-de-castro" target="_blank" rel="noopener noreferrer">
+              <img style={{ cursor: "pointer" }} src={linkedin} alt="linkedin" />
+            </a>
+          </div>    
         </ul>
       
         
