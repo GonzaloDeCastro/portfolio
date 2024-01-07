@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 import nuevoLogo from "../../suitcase.png";
+import github from "../assets/socialmedia/github.png"
 
 const Navbar = () => {
   const [active, setActive] = useState(" ");
@@ -28,9 +29,9 @@ const Navbar = () => {
             Gonzalo &nbsp; <span className="sm:block hidden">De Castro</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden sm:flex flex-row gap-10" >
           {navLinks.map((link) => (
-            <li
+            <li 
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
@@ -39,8 +40,16 @@ const Navbar = () => {
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
+            
           ))}
+          
+          <a href="https://github.com/GonzaloDeCastro" target="_blank" rel="noopener noreferrer">
+          <img style={{ cursor: "pointer" }} src={github} alt="github" />
+          </a>
+      
         </ul>
+      
+        
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
