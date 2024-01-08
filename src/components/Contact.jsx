@@ -7,8 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-import Swal from "sweetalert2";
-
 const Contact = () => {
   const isMobile = window.innerWidth <= 768;
   const formRef = useRef();
@@ -42,14 +40,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          Swal.fire({
-            title: "Succes!",
-            text: "Thank you for contacting you, I will contact you as soon as possible.",
-            icon: "success",
-          });
+          alert(
+            "Thank you for contacting you, I will contact you as soon as possible."
+          );
 
           setForm({
-            from_name: "",
+            name: "",
             email: "",
             message: "",
           });

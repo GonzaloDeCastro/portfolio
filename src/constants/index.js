@@ -176,24 +176,7 @@ const testimonials = [
     company: "Innovate",
     image: lucasdelmonte,
   },
-  //    {
-  //      testimonial:
-  //        "El mejor primo del universo",
-  //      name: "Gonzalo de Castro",
-  //      designation: "Developer Full Stack",
-  //      company: "Gloouds",
-  //      image: gonzalodecastro
-  //    },
-  //    {
-  //      testimonial:
-  //        "El mejor compañero de trabajo que tuve en la vida, sabe hacer de todo el hijo de puta",
-  //      name: "Ernesto Londero",
-  //      designation: "Developer Full Stack",
-  //     company: "",
-  //    image: ernestolondero,
-  // },
-
-  //
+ 
 ];
 
 const projects = [
