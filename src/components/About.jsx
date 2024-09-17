@@ -48,11 +48,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Developer, an Analyst in Systems, and an advanced Systems
-        Engineering student. I'm enthusiastic about learning new things, and I
-        actively take courses and self-study to continually enhance my
-        professional skills. I'm a hardworking, responsible, sociable, and
-        self-motivated individual.
+        I'm a Developer, Systems Analyst, and an advanced Systems Engineering student. 
+        I'm passionate about learning new things and regularly take courses and engage in self-study to continuously improve my professional skills.
+        I'm hardworking, responsible, sociable, and self-motivated.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

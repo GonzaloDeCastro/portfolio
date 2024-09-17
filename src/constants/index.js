@@ -53,7 +53,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  
 ];
 
 const services = [
@@ -62,7 +61,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Data Science Developer",
+    title: "Software Engineer",
     icon: mobile,
   },
   {
@@ -152,9 +151,19 @@ const experiences = [
     company_name: "BLC Global",
     icon: pythonIcon2,
     iconBg: "#383E56",
-    date: "April 2023 - Currently",
+    date: "April 2023 - March 2024",
     points: [
       "Design and development of SCADA system screens for process monitoring, control commands, trend analysis, alarms, and equipment management, primarily tailored for sustainable energy parks. Reviewing the SCADA solutions available in the market, with a focus on optimization and automation. Developing a versatile tool applicable to all projects.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Seidor Analytics",
+    icon: nodejs,
+    iconBg: "#383E56",
+    date: "March 2024 - Present",
+    points: [
+      "As a Full-Stack Software Engineer, I contributed to a performance analysis project for soccer players, primarily using React for frontend development. I was responsible for creating new components, integrating search filters, and implementing data analysis features. Additionally, I worked on both frontend and backend functionalities, including designing API endpoints and ensuring seamless integration. I collaborated closely with cross-functional teams in daily meetings with clients based in the United States to align on requirements and deliver tailored solutions.",
     ],
   },
 ];
@@ -176,7 +185,6 @@ const testimonials = [
     company: "Innovate",
     image: lucasdelmonte,
   },
- 
 ];
 
 const projects = [

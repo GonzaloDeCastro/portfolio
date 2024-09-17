@@ -24,9 +24,9 @@ const Hero = () => {
               isMobile ? "mt-20" : ""
             }`}
           >
-            Developer Web and SCADA Engineer <br className="sm:block hidden" />{" "}
-            I invite you to browse my portfolio and leave any recommendations
-            you have in the forms below!
+           Software Engineer specialized in full-stack web development <br className="sm:block hidden" />{" "}
+I invite you to explore my portfolio and share your feedback using the forms below!
+
           </p>
         </div>
       </div>
