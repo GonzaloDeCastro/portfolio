@@ -206,7 +206,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Express",
+        name: "Express ",
         color: "red-text-gradient",
       },
       {
