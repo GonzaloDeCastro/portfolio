@@ -31,7 +31,7 @@ import pythonIcon2 from "./pythonIcon2.png";
 import windfarmIcon from "./windFarmIcon.png";
 import codeIcon from "./codeIcon.png";
 import nuevoLogo from "../../portfolio.png";
-import furnitureAppMain from "./furnitureApp.png";
+import eventNow from "./eventNow.png";
 import damasOnline from "./damasGame.png";
 import apiMarvel from "./apiMarvel.png";
 import salesanalisis from "./portfolio.jpg";
@@ -68,7 +68,7 @@ export {
   mysql,
   nodejs,
   pandas,
-  furnitureAppMain,
+  eventNow,
   damasOnline,
   apiMarvel,
   salesanalisis,

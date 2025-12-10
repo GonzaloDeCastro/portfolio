@@ -33,7 +33,7 @@ import {
   cintiaavendaño,
   ezequielespinosa,
   notebook,
-  furnitureAppMain,
+  eventNow,
   windfarmIcon,
   codeIcon,
   redux,
@@ -189,9 +189,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Furniture App",
+    name: "Event Now",
     description:
-      "Project using React on the frontend side and for the backend, I used Node.js, Express, and MongoDB as the database. It's a simple application with a login and registration feature. Once logged in, it includes menus to add products and suppliers.",
+      "Project using React on the frontend side and Node.js, Express, and MySQL on the backend. It’s an event-management application with user registration and login features. Once logged in, users can browse events, view details, and interact with organizers through a simple and intuitive interface.",
     tags: [
       {
         name: "React",
@@ -210,13 +210,12 @@ const projects = [
         color: "red-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "MySQL",
         color: "orange-text-gradient",
       },
     ],
-    image: furnitureAppMain,
-    source_code_link:
-      "https://furniture-app-vdu3-67aqfpobw-gonzamdc.vercel.app/auth/login",
+    image: eventNow,
+    source_code_link: "https://event-now-frontend.vercel.app/",
   },
   {
     name: "Damas Online",

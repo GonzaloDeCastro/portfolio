@@ -48,9 +48,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Developer, Systems Analyst, and an advanced Systems Engineering student. 
-        I'm passionate about learning new things and regularly take courses and engage in self-study to continuously improve my professional skills.
-        I'm hardworking, responsible, sociable, and self-motivated.
+        I’m a Systems Engineer and full-stack Developer with a strong focus on
+        building clean, scalable, and maintainable software. I’m passionate
+        about continuous learning and constantly refine my skills through
+        hands-on practice, research, and professional development. I’m
+        disciplined, responsible, and self-motivated, and I enjoy collaborating
+        with teams as much as working independently to solve complex technical
+        challenges
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
