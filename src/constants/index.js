@@ -188,11 +188,14 @@ const projects = [
   {
     name: "Presuflow",
     description:
-      "End-to-end MVP for a quote management system. Features a minimalist React UI, Node.js/Express backend, and MySQL database. Designed to practice real deployment flows on AWS EC2 with CI/CD preparation.",
+      "Presuflow is an online quotation platform that allows businesses to create budgets in multiple currencies and manage composite products with reusable sub-components, enabling both complete and individual product sales through a simple and efficient interface.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
+      },  {
+        name: "Redux",
+        color: "purple-text-gradient",
       },
       {
         name: "Node JS",
@@ -203,7 +206,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "AWS EC2",
+        name: "Express",
         color: "yellow-text-gradient",
       },
     ],
