@@ -38,6 +38,7 @@ import {
   codeIcon,
   redux,
   mongodb,
+  presuflow,
 } from "../assets";
 
 export const navLinks = [
@@ -184,6 +185,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Presuflow",
+    description:
+      "End-to-end MVP for a quote management system. Features a minimalist React UI, Node.js/Express backend, and MySQL database. Designed to practice real deployment flows on AWS EC2 with CI/CD preparation.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "AWS EC2",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: presuflow,
+    source_code_link: "https://presuflow.vercel.app/",
+  },
   {
     name: "Event Now",
     description:

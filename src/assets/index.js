@@ -35,6 +35,7 @@ import eventNow from "./eventNow.png";
 import damasOnline from "./damasGame.png";
 import apiMarvel from "./apiMarvel.png";
 import salesanalisis from "./portfolio.jpg";
+import presuflow from "./presuflow.png";
 
 import leandrofritzler from "./profilepics/leandrofritzler.jpg";
 import ernestolondero from "./profilepics/ernestolondero.jpg";
@@ -92,4 +93,5 @@ export {
   pythonIcon2,
   redux,
   mongodb,
+  presuflow,
 };
