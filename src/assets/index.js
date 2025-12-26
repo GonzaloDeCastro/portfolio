@@ -37,15 +37,6 @@ import apiMarvel from "./apiMarvel.png";
 import salesanalisis from "./portfolio.jpg";
 import presuflow from "./presuflow.png";
 
-import leandrofritzler from "./profilepics/leandrofritzler.jpg";
-import ernestolondero from "./profilepics/ernestolondero.jpg";
-import ivobertoni from "./profilepics/ivobertoni.jpg";
-import gonzalodecastro from "./profilepics/gonzalodecastro.jpg";
-import lucasdelmonte from "./profilepics/lucasdelmonte.jpeg";
-import federicobustamante from "./profilepics/federicobustamante.jpeg";
-import claudiocaruzo from "./profilepics/claudiocaruzo.jpg";
-import cintiaavendaño from "./profilepics/cintiaavendaño.jpg";
-import ezequielespinosa from "./profilepics/ezequielespinosa.jpg";
 
 import notebook from "./backgroundimages/notebook.jpg";
 export {
@@ -80,15 +71,7 @@ export {
   c,
   windfarmIcon,
   codeIcon,
-  leandrofritzler,
-  ernestolondero,
-  ivobertoni,
-  gonzalodecastro,
-  cintiaavendaño,
-  claudiocaruzo,
-  federicobustamante,
-  ezequielespinosa,
-  lucasdelmonte,
+
   notebook,
   pythonIcon2,
   redux,

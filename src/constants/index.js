@@ -23,15 +23,7 @@ import {
   datascience,
   cDeveloper,
   webDeveloper,
-  leandrofritzler,
-  ernestolondero,
-  ivobertoni,
-  gonzalodecastro,
   apiMarvel,
-  lucasdelmonte,
-  federicobustamante,
-  cintiaavendaño,
-  ezequielespinosa,
   notebook,
   eventNow,
   windfarmIcon,
@@ -172,7 +164,7 @@ const testimonials = [
     name: "Federico Bustamante",
     designation: "Data Analyst",
     company: "BLC Global",
-    image: federicobustamante,
+
   },
   {
     testimonial:
@@ -180,7 +172,7 @@ const testimonials = [
     name: "Lucas Delmonte",
     designation: "Frontend Developer",
     company: "Innovate",
-    image: lucasdelmonte,
+
   },
 ];
 
