@@ -34,6 +34,11 @@ import presuflow from "./presuflow.png";
 
 
 import notebook from "./backgroundimages/notebook.jpg";
+import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import postgresql from "./tech/postgresql.svg";
+import express from "./tech/express.svg";
+
 export {
   backend,
   creator,
@@ -66,4 +71,8 @@ export {
   redux,
   mongodb,
   presuflow,
+  tailwind,
+  typescript,
+  postgresql,
+  express,
 };

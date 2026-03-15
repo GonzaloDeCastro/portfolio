@@ -26,6 +26,10 @@ import {
   redux,
   mongodb,
   presuflow,
+  tailwind,
+  typescript,
+  postgresql,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -64,14 +68,45 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux",
+    name: "Redux Toolkit",
     icon: redux,
   },
-
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Express.js",
+    icon: express,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Docker & CI/CD",
+    icon: docker,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "git",
     icon: git,
@@ -80,34 +115,18 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-
-  {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "NodeJS",
-    icon: nodejs,
-  },
-  {
-    name: "mysql",
-    icon: mysql,
-  },
-  {
-    name: "mongodb",
-    icon: mongodb,
-  },
 ];
 
 const experiences = [
   {
-    title: "Web developer and Odoo implementer",
+    title: "Web Designer",
     company_name: "Pronexo",
     icon: codeIcon,
     iconBg: "#383E56",
-    date: "October 2016 - November 2019",
+    date: "Oct 2016 - Nov 2019",
     points: [
-      "Design and development of websites mainly using WordPress. Additionally, I worked as an implementer and module developer for Odoo V8",
+      "Designed and developed websites using WordPress.",
+      "Implemented UI/UX improvements for clients.",
     ],
   },
   {
@@ -115,19 +134,22 @@ const experiences = [
     company_name: "BLC Global",
     icon: windfarmIcon,
     iconBg: "#383E56",
-    date: "November 2019 - April 2022",
+    date: "Nov 2019 - Jun 2022",
     points: [
-      "Telecommunications and monitoring of Wind, Solar and Biogas parks.",
+      "Telecommunications monitoring of wind, solar, and biogas energy parks.",
+      "Oversaw alerts and operational continuity.",
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Web Developer",
     company_name: "Gloouds",
     icon: reactDeveloper,
     iconBg: "#383E56",
-    date: "April 2022 - April 2023",
+    date: "Jun 2022 - Apr 2023",
     points: [
-      "I worked as a Frontend developer using React as the main library, creating new components and functionalities such as endpoints, search filters, data analysis, full screens with different tailored requirements, in a performance analysis project for soccer players.",
+      "Developed UI components, layouts, and interfaces.",
+      "Migrated state management from useContext to Redux.",
+      "Integrated REST APIs and performed debugging and maintenance.",
     ],
   },
   {
@@ -135,19 +157,25 @@ const experiences = [
     company_name: "BLC Global",
     icon: pythonIcon2,
     iconBg: "#383E56",
-    date: "April 2023 - March 2024",
+    date: "Apr 2023 - Mar 2024",
     points: [
-      "Design and development of SCADA system screens for process monitoring, control commands, trend analysis, alarms, and equipment management, primarily tailored for sustainable energy parks. Reviewing the SCADA solutions available in the market, with a focus on optimization and automation. Developing a versatile tool applicable to all projects.",
+      "Developed SCADA system screens for monitoring, alarms, trend analysis, and equipment control.",
+      "Analyzed existing SCADA solutions and implemented improvements focused on optimization and automation.",
     ],
   },
   {
     title: "Software Engineer",
-    company_name: "Seidor Analytics",
+    company_name: "SEIDOR Analytics",
     icon: nodejs,
     iconBg: "#383E56",
-    date: "March 2024 - Present",
+    date: "Mar 2024 - Present",
     points: [
-      "As a Full-Stack Software Engineer, I contributed to a performance analysis project for soccer players, primarily using React for frontend development. I was responsible for creating new components, integrating search filters, and implementing data analysis features. Additionally, I worked on both frontend and backend functionalities, including designing API endpoints and ensuring seamless integration. I collaborated closely with cross-functional teams in daily meetings with clients based in the United States to align on requirements and deliver tailored solutions.",
+      "Full‑stack development and maintenance of enterprise web applications using Node.js, Express, React, and Redux Toolkit.",
+      "Designed REST APIs, integrated PostgreSQL and MongoDB databases, and created SQL stored procedures and optimized queries.",
+      "Worked with Docker for containerized environments and participated in CI/CD processes for deployment and delivery.",
+      "Produced clean, maintainable code following semantic versioning and Git workflows.",
+      "Documented backend and frontend with JSDoc and Markdown.",
+      "Coordinated tasks via Jira, ensuring alignment with business and technical goals.",
     ],
   },
 ];
