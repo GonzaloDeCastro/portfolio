@@ -8,7 +8,7 @@ import {
   css,
   reactjs,
   git,
-  figma,
+  linux,
   docker,
   damasOnline,
   python,
@@ -38,17 +38,17 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About me",
+    title: "About Me",
   },
   {
     id: "work",
-    title: "Development projects",
+    title: "Projects",
   },
 ];
 
 const services = [
   {
-    title: "Developer Web",
+    title: "Web Developer",
     icon: web,
   },
   {
@@ -60,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Developer UI/UX",
+    title: "UI/UX Developer",
     icon: creator,
   },
 ];
@@ -95,6 +95,10 @@ const technologies = [
     icon: postgresql,
   },
   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -111,12 +115,12 @@ const technologies = [
     icon: python,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Linux",
+    icon: linux,
   },
 ];
 
@@ -249,7 +253,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Express ",
+        name: "Express",
         color: "red-text-gradient",
       },
       {
@@ -274,7 +278,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "JavaScript",
         color: "yellow-text-gradient",
       },
     ],
