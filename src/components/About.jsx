@@ -48,9 +48,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Systems Engineer and Full-Stack Software Engineer with strong experience in React, Redux Toolkit, Node.js, Express, PostgreSQL, MongoDB, and Docker.
-        Experienced in designing scalable systems, building robust APIs, and developing maintainable frontend and backend architectures. Skilled in AI-assisted development workflows using modern tools such as Cursor and other AI-powered engineering environments to accelerate development while maintaining high code quality and architectural standards.
-        <br /><br />
+        Systems Engineer and Full-Stack Software Engineer with strong experience in React, Redux Toolkit, Node.js, Express, PostgreSQL, MongoDB, and Docker. Experienced in designing scalable systems, building robust APIs, and developing maintainable frontend and backend architectures. Skilled in AI-assisted development workflows using modern tools such as Cursor and other AI-powered engineering environments to accelerate development while maintaining high code quality and architectural standards.
+        <br />
+        <br />
         Focused on clean architecture, performance optimization, and strategic decision-making regarding system scalability, maintainability, and long-term product evolution. Experienced in documentation using JSDoc and Markdown, CI/CD pipelines, and collaborative agile environments.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">

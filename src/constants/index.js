@@ -18,7 +18,6 @@ import {
   reactDeveloper,
   datascience,
   webDeveloper,
-  apiMarvel,
   notebook,
   eventNow,
   windfarmIcon,
@@ -30,6 +29,10 @@ import {
   typescript,
   postgresql,
   express,
+  essentia,
+  servimac,
+  figprojects,
+  cervezasantadiabla,
 } from "../assets";
 
 export const navLinks = [
@@ -280,29 +283,104 @@ const projects = [
       "https://gonzalodecastro.github.io/Juego-de-Damas-Personalizado",
   },
   {
-    name: "API Marvel",
+    name: "Essentia Fitness",
     description:
-      "This project contains all the Marvel heroes. You can browse the different pages or just search for your favorite hero. We also have its comics available.",
+      "Corporate gym website focused on training programs, premium equipment, and a clear value proposition for new members.",
     tags: [
       {
         name: "HTML",
-        color: "skyblue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Responsive",
+        color: "green-text-gradient",
+      },
+    ],
+    image: essentia,
+    source_code_link: "https://essentiafitness.com/",
+  },
+  {
+    name: "Servymac",
+    description:
+      "Commercial website for fitness equipment sales, featuring product catalog sections and conversion-oriented business messaging.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "UX/UI",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: servimac,
+    source_code_link: "https://www.servymac.com/#about",
+  },
+  {
+    name: "FIG Projects",
+    description:
+      "Personal project site offering web and app development services with a full-stack approach and agile delivery model.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
         color: "purple-text-gradient",
       },
       {
-        name: "Jasvascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "REST-API",
-        color: "yellow-text-gradient",
+        name: "Docker",
+        color: "orange-text-gradient",
       },
     ],
-    image: apiMarvel,
-    source_code_link: "https://gonzalodecastro.github.io/API-Marvel/",
+    image: figprojects,
+    source_code_link: "https://www.figprojects.com/",
+  },
+  {
+    name: "Cerveza Santa Diabla",
+    description:
+      "Craft brewery website with beer style catalog, event services, and strong brand storytelling for digital presence.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Branding",
+        color: "red-text-gradient",
+      },
+    ],
+    image: cervezasantadiabla,
+    source_code_link: "https://www.cervezasantadiabla.com/",
   },
 ];
 

@@ -43,9 +43,9 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-        <div className="met-5">
+        <div className="mt-5">
           <h3 className="text-white font-bold text-[23px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] min-h-[72px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -55,6 +55,15 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        <a
+          href={source_code_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`View project ${name}`}
+          className="inline-flex mt-5 text-[14px] text-white font-medium hover:text-secondary transition-colors duration-200 underline underline-offset-4"
+        >
+          View project
+        </a>
       </Tilt>
     </motion.div>
   );
@@ -73,9 +82,9 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           The following projects showcase my skills and experience in developing
-          solutions for real-world problems. Each project is linked to its
-          respective GitHub repository, where you can find its source code and
-          documentation. These projects demonstrate my ability to solve complex
+          solutions for real-world problems. Each project includes a direct link
+          so you can explore the live product, user experience, and visual
+          execution. These projects demonstrate my ability to solve complex
           problems using various technologies.
         </motion.p>
       </div>

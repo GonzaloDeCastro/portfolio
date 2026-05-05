@@ -31,6 +31,10 @@ import eventNow from "./eventNow.png";
 import damasOnline from "./damasGame.png";
 import apiMarvel from "./apiMarvel.png";
 import presuflow from "./presuflow.png";
+import essentia from "./essentia.png";
+import servimac from "./servimac.png";
+import figprojects from "./figprojects.png";
+import cervezasantadiabla from "./cervezasantadiabla.png";
 
 
 import notebook from "./backgroundimages/notebook.jpg";
@@ -71,6 +75,10 @@ export {
   redux,
   mongodb,
   presuflow,
+  essentia,
+  servimac,
+  figprojects,
+  cervezasantadiabla,
   tailwind,
   typescript,
   postgresql,

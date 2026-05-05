@@ -17,15 +17,17 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#5eacff]"> Gonzalo De Castro</span>
+            Hi, I'm{" "}
+            <span className="text-[#5eacff]"> Gonzalo De Castro</span>
           </h1>
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 ${
               isMobile ? "mt-20" : ""
             }`}
           >
-           Software Engineer specialized in full-stack web development <br className="sm:block hidden" />{" "}
-I invite you to explore my portfolio and share your feedback using the forms below!
+            Software Engineer specialized in full-stack web development{" "}
+            <br className="sm:block hidden" />{" "}
+            I invite you to explore my portfolio and share your feedback using the forms below!
 
           </p>
         </div>
