@@ -46,12 +46,20 @@ Obligatorio para project sites (`username.github.io/repo-name/`). Usar ruta rela
 | `base` en Vite con URL absoluta | Config legacy `https://gonzalodecastro.github.io/portfolio` | Cambiado a `base: "/portfolio/"` |
 | OG image 404 | `portfolio.png` solo en raíz del repo | Copiado a `public/portfolio.png` (se incluye en build) |
 
+## Historial de deploys
+
+| Fecha | Método | Commit | Notas |
+|-------|--------|--------|-------|
+| 2026-06-11 | `npx gh-pages -d dist` | local build | Publicado a rama `gh-pages` |
+| 2026-06-11 | `git push origin main` | `6216cd9` | Dispara GitHub Actions workflow |
+
 ## Checklist post-deploy
 
-- [ ] https://gonzalodecastro.github.io/portfolio/ carga sin errores en consola
-- [ ] Navegación About / Experience / Tech / Projects / Contact funciona
-- [ ] Assets (imágenes, 3D) cargan correctamente
-- [ ] GitHub Action "Deploy Vite app to GitHub Pages" en verde
+- [x] https://gonzalodecastro.github.io/portfolio/ en línea (título SEO actualizado)
+- [ ] Verificar navegación About / Experience / Tech / Projects / Contact en navegador
+- [ ] Verificar GitHub Action "Deploy Vite app to GitHub Pages" en verde (Actions tab)
+
+**Nota:** Si Pages usa rama `gh-pages`, el deploy manual ya publicó los cambios. Si Pages usa GitHub Actions, el push a `main` activará el workflow automáticamente.
 
 ## Comandos locales
 
