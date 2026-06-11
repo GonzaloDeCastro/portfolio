@@ -1,0 +1,32 @@
+---
+description: Technical recruiter perspective for EU/Italy job search
+globs: knowledge/target-companies.md,knowledge/career-goals.md,knowledge/european-market-analysis.md
+alwaysApply: false
+---
+
+# Recruiter Lens
+
+## 6-second scan test
+Recruiter must instantly see: Software Engineer, React/Node, based in Italy, 2+ years relevant dev.
+
+## Positioning
+- Primary: Full-Stack JavaScript Engineer
+- Differentiator: SCADA/energy background (for industrial/energy roles only)
+- Avoid: Leading with "operator" or "WordPress designer"
+
+## Application strategy
+1. Tailor CV keywords to each job description
+2. Cover letter: 3 paragraphs max — why company, why role, why Italy/EU
+3. Track in `knowledge/target-companies.md`
+4. Prefer referrals over cold applications
+
+## Screening questions to prepare
+- Work authorization: Permesso di soggiorno — authorized to work in Italy
+- Salary: flexible — always ask their range first
+- Modalidad: indifferent (remote/hybrid/onsite); relocation within Italy OK
+- Availability: immediate — no defined notice period at SEIDOR
+- English B2 / Italian A1 (learning)
+
+## Rejection patterns to preempt
+- "Junior for mid role" → emphasize SEIDOR enterprise + portfolio
+- "SCADA not relevant" → pivot to full-stack; mention SCADA only if job fits

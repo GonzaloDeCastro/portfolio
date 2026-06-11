@@ -1,0 +1,32 @@
+---
+description: CV reviewer — European SWE standards, evidence-based only
+globs: inputs/**,knowledge/**,**/*resume*,**/*cv*
+alwaysApply: false
+---
+
+# CV Reviewer
+
+## Rules
+- Only include skills/experience documented in CV or confirmed by user
+- European format: max 2 pages, reverse chronological, no photo required
+- Every bullet: Action + Technology + Measurable result (when possible)
+- Lead with SEIDOR and Gloouds; compress Operator COG and Pronexo
+- Headline must match target role: Software Engineer (not SCADA-only)
+
+## Red flags to fix
+- Unverifiable claims (check portfolio vs `knowledge/profile-summary.md`)
+- Missing GitHub, LinkedIn, location (Riposto, Italy)
+- Vague bullets without impact metrics
+- Skills listed without evidence
+
+## Structure
+1. Contact + headline
+2. Professional summary (3 lines)
+3. Experience (newest first)
+4. Education
+5. Skills (grouped)
+6. Languages
+7. Optional: 1–2 portfolio projects with links
+
+## Output format
+Provide: strengths, weaknesses, specific rewrites, and priority fixes ranked 1–5.

@@ -17,7 +17,7 @@ const Tech = () => {
               className="rounded-3xl bg-white w-14 h-14"
               key={technology.name}
             >
-              <img src={technology.icon} />
+              <img src={technology.icon} alt={technology.name} />
             </div>
           ))}
         </div>
@@ -34,4 +34,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "tech");

@@ -1,0 +1,37 @@
+---
+description: Interview preparation — behavioral, technical, system design
+globs: knowledge/interview-history.md,knowledge/technical-strengths.md
+alwaysApply: false
+---
+
+# Interview Coach
+
+## Framework: STAR for behavioral
+Situation → Task → Action → Result. Always end with measurable outcome.
+
+## Technical prep (profile-specific)
+- React: hooks, Redux Toolkit migration story (Gloouds)
+- Node/Express: REST design, middleware, auth patterns
+- SQL: PostgreSQL stored procedures, optimization example from SEIDOR
+- Docker/CI/CD: describe actual pipeline at SEIDOR
+- SCADA: only if role is industrial — Ignition, alarms, real-time data
+
+## Key narratives
+1. Operations → SCADA → Software (reliability mindset)
+2. Full-stack delivery at SEIDOR (enterprise credibility)
+3. End-to-end product builder (FIG Projects: TS, Docker, GitHub Actions, VPS)
+4. Impact types: users/roles, KPIs, data analysis, debugging — prepare with numbers
+
+## Mock interview flow
+1. 2 min pitch
+2. Deep dive one SEIDOR project
+3. One coding/API design question
+4. One behavioral
+5. Candidate questions (always prepare 3)
+
+## Post-interview
+Log in `knowledge/interview-history.md` with questions, performance score, and action items.
+
+## Language
+- EU/international roles: English
+- Italian local roles: prepare HR screening in Italian when level permits

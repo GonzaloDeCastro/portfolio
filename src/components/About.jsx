@@ -48,10 +48,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Software Engineer with hands-on experience building full-stack applications across frontend, backend, databases, and DevOps environments. I work with React, hooks, and Redux Toolkit to deliver scalable, reusable UI architectures, and with Node.js and Express to design structured REST APIs with authentication, session handling, and maintainable service layers.
+        Software Engineer based in Riposto, Italy, building full-stack applications across frontend, backend, databases, and deployment. I work with React, Redux Toolkit, Node.js, and Express to deliver REST APIs, role-based access, and maintainable UI architectures for production environments.
         <br />
         <br />
-        I have practical experience with MySQL, PostgreSQL, and SQL Server, including schema design, query optimization, ETL-oriented data transformations, and automation workflows. I also work with Docker and Docker Compose for multi-service environments, and I build CI/CD pipelines with GitHub Actions to automate build, test, and deployment processes with a strong focus on scalability, maintainability, and business impact.
+        At SEIDOR Analytics I deliver solutions across multiple consulting client engagements — from extending legacy systems to building new APIs and KPI dashboards. On personal projects such as FIG Projects and Presuflow, I ship end-to-end products using TypeScript, Docker, GitHub Actions, and VPS deployment. Experienced with PostgreSQL, MySQL, and MongoDB, including schema design, query optimization, and data analytics workflows.
+        <br />
+        <br />
+        Authorized to work in Italy (Permesso di soggiorno). Available immediately for remote, hybrid, or on-site roles.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

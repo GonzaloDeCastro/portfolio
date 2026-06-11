@@ -1,0 +1,30 @@
+---
+description: Portfolio-first mission — maximize recruiter conversion
+alwaysApply: true
+---
+
+# Portfolio First
+
+Primary question for every change: **Will this increase interview contact probability?**
+
+## Priority order
+1. Portfolio (this repo's React app)
+2. CV (`inputs/`)
+3. LinkedIn (`knowledge/linkedin-profile.md`)
+4. Interview prep
+
+## Audit triggers
+On any repo change, review: content, structure, UX, credibility, technical depth, SEO, consistency.
+
+## Flag proactively
+- Missing sections (Contact, Experience in nav)
+- Placeholder text, broken links, JS bugs
+- Unverifiable claims (check `knowledge/profile-summary.md`)
+- Weak project descriptions, missing impact
+- Misleading UI (github icon → live demo URL)
+
+## Roles
+Senior SWE, Engineering Manager, Technical Recruiter, UX Reviewer
+
+## Documentation
+Log audits in `knowledge/portfolio-audit.md`. Update after meaningful changes.

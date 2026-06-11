@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  github_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -31,21 +32,38 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer" onClick={() => window.open(source_code_link, "_blank")}>
-            <div
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center"
+          <div className="absolute inset-0 flex justify-end gap-2 m-3">
+            <button
+              type="button"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center card-img_hover cursor-pointer"
+              onClick={() => window.open(source_code_link, "_blank")}
+              aria-label={`Open live demo of ${name}`}
+              title="Live demo"
             >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+              <span className="text-white text-lg font-bold">↗</span>
+            </button>
+            {github_link && (
+              <button
+                type="button"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center card-img_hover cursor-pointer"
+                onClick={() => window.open(github_link, "_blank")}
+                aria-label={`View ${name} source code on GitHub`}
+                title="Source code"
+              >
+                <img
+                  src={github}
+                  alt="GitHub"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </button>
+            )}
           </div>
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[23px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] min-h-[72px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] min-h-[72px]">
+            {description}
+          </p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -59,10 +77,10 @@ const ProjectCard = ({
           href={source_code_link}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`View project ${name}`}
+          aria-label={`View live project ${name}`}
           className="inline-flex mt-5 text-[14px] text-white font-medium hover:text-secondary transition-colors duration-200 underline underline-offset-4"
         >
-          View project
+          View live project
         </a>
       </Tilt>
     </motion.div>
@@ -73,19 +91,18 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What has been created so far:</p>
-        <h2 className={styles.sectionHeadText}>Projects </h2>
+        <p className={styles.sectionSubText}>Selected work</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects showcase my skills and experience in developing
-          solutions for real-world problems. Each project includes a direct link
-          so you can explore the live product, user experience, and visual
-          execution. These projects demonstrate my ability to solve complex
-          problems using various technologies.
+          Full-stack products and client-facing applications. Featured projects
+          demonstrate end-to-end delivery — architecture, APIs, databases, and
+          deployment. Client websites show UI/UX and front-end execution for
+          real businesses.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

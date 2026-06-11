@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`{styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -25,11 +25,24 @@ const Hero = () => {
               isMobile ? "mt-20" : ""
             }`}
           >
-            Software Engineer specialized in full-stack web development{" "}
-            <br className="sm:block hidden" />{" "}
-            I invite you to explore my portfolio and share your feedback using the forms below!
-
+            Full-stack Software Engineer — React, Node.js, PostgreSQL{" "}
+            <br className="sm:block hidden" />
+            Based in Italy · Open to opportunities across Europe · Available immediately
           </p>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="#work"
+              className="bg-[#5eacff] py-3 px-8 rounded-xl text-white font-bold shadow-md hover:opacity-90 transition-opacity"
+            >
+              View Projects
+            </a>
+            <a
+              href="#contact"
+              className="border border-secondary py-3 px-8 rounded-xl text-white font-bold hover:border-white transition-colors"
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
       </div>
       {!isMobile && <ComputersCanvas />}
@@ -41,7 +54,7 @@ const Hero = () => {
       >
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}

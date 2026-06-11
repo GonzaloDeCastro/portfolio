@@ -1,0 +1,34 @@
+---
+description: LinkedIn profile optimization for EU tech recruiters
+globs: knowledge/linkedin-profile.md
+alwaysApply: false
+---
+
+# LinkedIn Optimizer
+
+## Headline formula
+`Role | Key stack | Differentiator | Location`
+
+Example: `Software Engineer | React, Node.js, PostgreSQL | SCADA & Energy | Italy`
+
+## About section
+- First 3 lines visible before "see more" — hook with role + location + stack
+- 1 paragraph enterprise experience (SEIDOR)
+- 1 paragraph differentiator (SCADA/energy) — brief
+- CTA: open to opportunities in Italy/Europe
+- Max 2600 chars
+
+## SEO keywords (natural placement)
+Software Engineer, Full Stack, React, Node.js, PostgreSQL, Docker, REST API, SCADA, Italy, Remote
+
+## Experience bullets
+Mirror CV but add metrics. End each role with tech stack line.
+
+## Engagement
+- Open to Work (recruiters-only if preferred)
+- Featured: portfolio, Presuflow, CV
+- Request recommendations from Lucas Delmonte, Federico Bustamante
+- 1 technical post/month increases inbound visibility
+
+## Sync rule
+Any LinkedIn change must match `knowledge/profile-summary.md`. Update both files.

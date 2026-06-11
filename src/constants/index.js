@@ -38,11 +38,23 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About Me",
+    title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "tech",
+    title: "Tech",
   },
   {
     id: "work",
     title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -177,12 +189,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mar 2024 - Present",
     points: [
-      "Full‑stack development and maintenance of enterprise web applications using Node.js, Express, React, and Redux Toolkit.",
-      "Designed REST APIs, integrated PostgreSQL and MongoDB databases, and created SQL stored procedures and optimized queries.",
-      "Worked with Docker for containerized environments and participated in CI/CD processes for deployment and delivery.",
-      "Produced clean, maintainable code following semantic versioning and Git workflows.",
-      "Documented backend and frontend with JSDoc and Markdown.",
-      "Coordinated tasks via Jira, ensuring alignment with business and technical goals.",
+      "Delivered full-stack solutions across multiple consulting client engagements, from small internal tools to larger multi-user applications.",
+      "Designed and implemented numerous REST API endpoints, extending legacy systems and building greenfield features with Node.js, Express, React, and Redux Toolkit.",
+      "Integrated PostgreSQL and MongoDB, created stored procedures, optimized queries, and improved KPI dashboards with better visualizations and data modeling.",
+      "Worked with Docker and CI/CD workflows; documented systems with JSDoc and Markdown; coordinated delivery via Jira.",
     ],
   },
 ];
@@ -207,6 +217,36 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "FIG Projects",
+    description:
+      "End-to-end product showcasing professional web development services — full-stack architecture with TypeScript, Docker, GitHub Actions CI/CD, and VPS deployment. Demonstrates ability to own a product from infrastructure to UI.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "GitHub Actions",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: figprojects,
+    source_code_link: "https://www.figprojects.com/",
+    github_link: null,
+  },
   {
     name: "Presuflow",
     description:
@@ -234,6 +274,7 @@ const projects = [
     ],
     image: presuflow,
     source_code_link: "https://presuflow.vercel.app/",
+    github_link: null,
   },
   {
     name: "Event Now",
@@ -263,6 +304,7 @@ const projects = [
     ],
     image: eventNow,
     source_code_link: "https://event-now-frontend.vercel.app/",
+    github_link: null,
   },
   {
     name: "Damas Online",
@@ -285,6 +327,7 @@ const projects = [
     image: damasOnline,
     source_code_link:
       "https://gonzalodecastro.github.io/Juego-de-Damas-Personalizado",
+    github_link: "https://github.com/GonzaloDeCastro/Juego-de-Damas-Personalizado",
   },
   {
     name: "Essentia Fitness",
@@ -310,6 +353,7 @@ const projects = [
     ],
     image: essentia,
     source_code_link: "https://essentiafitness.com/",
+    github_link: null,
   },
   {
     name: "Servymac",
@@ -335,31 +379,7 @@ const projects = [
     ],
     image: servimac,
     source_code_link: "https://www.servymac.com/#about",
-  },
-  {
-    name: "FIG Projects",
-    description:
-      "Personal project site offering web and app development services with a full-stack approach and agile delivery model.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node JS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Docker",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: figprojects,
-    source_code_link: "https://www.figprojects.com/",
+    github_link: null,
   },
   {
     name: "Cerveza Santa Diabla",
@@ -385,6 +405,7 @@ const projects = [
     ],
     image: cervezasantadiabla,
     source_code_link: "https://www.cervezasantadiabla.com/",
+    github_link: null,
   },
 ];
 
