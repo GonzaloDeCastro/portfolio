@@ -51,7 +51,7 @@ const About = () => {
         Software Engineer based in Riposto, Italy, building full-stack applications across frontend, backend, databases, and deployment. I work with React, Redux Toolkit, Node.js, and Express to deliver REST APIs, role-based access, and maintainable UI architectures for production environments.
         <br />
         <br />
-        At SEIDOR Analytics I deliver solutions across multiple consulting client engagements — from extending legacy systems to building new APIs and KPI dashboards. On personal projects such as FIG Projects and Presuflow, I ship end-to-end products using TypeScript, Docker, GitHub Actions, and VPS deployment. Experienced with PostgreSQL, MySQL, and MongoDB, including schema design, query optimization, and data analytics workflows.
+        At SEIDOR Analytics I deliver solutions across multiple consulting client engagements — from extending legacy systems to building new APIs and KPI dashboards. On the FIG Projects platform I ship production SaaS products — GymFlow, PresuFlow, SocioFlow, GsaFlow, and Notas de Pedido — using TypeScript, PostgreSQL, Docker, GitHub Actions, and VPS deployment. Experienced with PostgreSQL, MySQL, and MongoDB, including schema design, query optimization, and data analytics workflows.
         <br />
         <br />
         Authorized to work in Italy (Permesso di soggiorno). Available immediately for remote, hybrid, or on-site roles.

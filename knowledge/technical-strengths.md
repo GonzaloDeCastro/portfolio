@@ -1,6 +1,6 @@
 # Technical Strengths
 
-**Última actualización:** 2026-06-11 (actualizado con confirmación del candidato)
+**Última actualización:** 2026-09-04 (productos Platform en portfolio)
 
 ## Posicionamiento técnico
 
@@ -30,9 +30,9 @@
 ### Databases
 | Tecnología | Evidencia | Profundidad estimada |
 |------------|-----------|---------------------|
-| PostgreSQL | SEIDOR (stored procedures, optimización) | Intermedio |
+| PostgreSQL | SEIDOR + FIG Projects Platform (schemas por producto) | Intermedio |
 | MongoDB | SEIDOR | Básico–Intermedio |
-| MySQL | Skills CV, Presuflow, Event Now | Intermedio |
+| MySQL | Skills CV, Event Now | Intermedio |
 
 ### DevOps & Infra
 | Tecnología | Evidencia | Profundidad estimada |
@@ -70,7 +70,7 @@
 *"En SEIDOR aplico specs, MCP y prompt engineering no como buzzwords sino para acelerar documentación, integración de tools y workflows repetibles."*
 
 ### Narrativa 4: "Product builder end-to-end"
-*"En mis proyectos personales — como FIG Projects — llevo el producto de punta a punta: frontend en React/TypeScript, backend Node, base de datos, Docker, pipelines con GitHub Actions y deploy en VPS. No solo escribo features; entrego sistemas funcionando en producción."*
+*"En mis proyectos personales — FIG Projects Platform — llevo varios productos a producción: frontend en React/TypeScript, backend Node, PostgreSQL, Docker, Nginx, pipelines con GitHub Actions y deploy en VPS. No solo escribo features; entrego sistemas que clientes usan."*
 
 ## Impacto documentable — SEIDOR (consultora)
 
@@ -93,8 +93,12 @@
 
 | Proyecto | Stack | Demuestra |
 |----------|-------|-----------|
-| FIG Projects | React, Node, TypeScript, Docker, GitHub Actions, VPS | Producto E2E profesional |
-| Presuflow | React, Redux, Node, Express, MySQL | SaaS full-stack |
+| FIG Projects Platform | React, Node, TypeScript, PostgreSQL, Docker, Nginx, GitHub Actions, VPS | Multi-producto SaaS en producción |
+| GymFlow | React, TypeScript, Node, PostgreSQL | SaaS entrenadores: rutinas, sesiones, check-in |
+| PresuFlow | React, TypeScript, Node, PostgreSQL | Presupuestos PDF + tablero de producción |
+| SocioFlow | React, TypeScript, Node, PostgreSQL | Membresías, cobros, caja, portal del socio |
+| GsaFlow | React, TypeScript, Node, PostgreSQL | Consorcios: reclamos, reservas, expensas |
+| Notas de Pedido | React, TypeScript, Node, PostgreSQL | Pedidos mobile-first + PDF |
 | Event Now | React, Redux, Node, Express, MySQL | Auth, CRUD, deploy |
 
 ## Pendiente de confirmar

@@ -7,6 +7,9 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+const productProjects = projects.filter((project) => project.kind === "product");
+const clientProjects = projects.filter((project) => project.kind === "client");
+
 const ProjectCard = ({
   index,
   name,
@@ -17,7 +20,7 @@ const ProjectCard = ({
   github_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.12, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -29,8 +32,8 @@ const ProjectCard = ({
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            alt={`${name} project preview`}
+            className="w-full h-full object-cover object-top rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end gap-2 m-3">
             <button
@@ -61,9 +64,7 @@ const ProjectCard = ({
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[23px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] min-h-[72px]">
-            {description}
-          </p>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -87,6 +88,18 @@ const ProjectCard = ({
   );
 };
 
+const ProjectGrid = ({ items, startIndex = 0 }) => (
+  <div className="mt-10 flex flex-wrap gap-7">
+    {items.map((project, index) => (
+      <ProjectCard
+        key={`project-${project.name}`}
+        index={startIndex + index}
+        {...project}
+      />
+    ))}
+  </div>
+);
+
 const Works = () => {
   return (
     <>
@@ -99,17 +112,27 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Full-stack products and client-facing applications. Featured projects
-          demonstrate end-to-end delivery — architecture, APIs, databases, and
-          deployment. Client websites show UI/UX and front-end execution for
-          real businesses.
+          Production SaaS products on the FIG Projects platform, plus
+          client-facing websites. Featured work shows end-to-end delivery —
+          architecture, APIs, PostgreSQL, Docker, and VPS deployment.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
+
+      <motion.h3
+        variants={fadeIn("", "", 0.15, 0.6)}
+        className="mt-16 text-white font-semibold text-[22px]"
+      >
+        Production products
+      </motion.h3>
+      <ProjectGrid items={productProjects} />
+
+      <motion.h3
+        variants={fadeIn("", "", 0.2, 0.6)}
+        className="mt-16 text-white font-semibold text-[22px]"
+      >
+        Client websites & other
+      </motion.h3>
+      <ProjectGrid items={clientProjects} startIndex={productProjects.length} />
     </>
   );
 };

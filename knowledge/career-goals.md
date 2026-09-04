@@ -1,6 +1,6 @@
 # Career Goals
 
-**Última actualización:** 2026-06-11
+**Última actualización:** 2026-09-04
 
 ## Objetivo principal
 
@@ -37,7 +37,7 @@ Maximizar probabilidades de obtener posiciones de **Software Engineer en Italia 
 | Mercado italiano | Reside en Italia, permesso di soggiorno | Alta |
 | Rol SWE (no SCADA puro) | CV + búsqueda activa | Alta |
 | Diferenciador industrial | SCADA en experiencia | Alta |
-| Producto end-to-end | FIG Projects, Presuflow, Docker/VPS/pipelines | Alta |
+| Producto end-to-end | FIG Projects Platform (GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido), Docker/VPS/pipelines | Alta |
 | Europa ampliada | Inglés B2, flexible en modalidad | Media |
 
 ## Restricciones conocidas

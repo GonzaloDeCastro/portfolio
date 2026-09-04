@@ -32,12 +32,18 @@ const Computers = () => {
 
 const ComputersCanvas = () => {
   return (
-    <Canvas
-      frameloop="demand"
-      shadows
-      camera={{ position: [20,3,5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+    <div className="absolute inset-0 w-full h-full z-0 pointer-events-none">
+      <Canvas
+        className="w-full h-full"
+        frameloop="demand"
+        shadows
+        camera={{ position: [20, 3, 5], fov: 25 }}
+        gl={{ alpha: true, preserveDrawingBuffer: true }}
+        style={{ background: "transparent" }}
+        onCreated={({ gl }) => {
+          gl.setClearColor(0x000000, 0);
+        }}
+      >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
           enableZoom={false} 
@@ -47,6 +53,7 @@ const ComputersCanvas = () => {
         <Computers/>
       </Suspense>
     </Canvas>
+    </div>
   );
 };
 

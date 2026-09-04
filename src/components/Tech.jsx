@@ -1,35 +1,28 @@
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { styles } from "../style";
 
 const Tech = () => {
-  const isMobile = window.innerWidth <= 768;
-
   return (
     <div>
       <p className={styles.sectionSubText}>Resources:</p>
       <h2 className={styles.sectionHeadText}>Technologies</h2>
-      {isMobile ? (
-        <div className="w-15 h-15 shadow-md flex flex-row flex-wrap justify-center gap-10">
-          {technologies.map((technology) => (
-            <div
-              className="rounded-3xl bg-white w-14 h-14"
-              key={technology.name}
-            >
-              <img src={technology.icon} alt={technology.name} />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div className="flex flex-row flex-wrap justify-center gap-10">
-          {technologies.map((technology) => (
-            <div className="w-28 h-28" key={technology.name}>
-              <BallCanvas icon={technology.icon} />
-            </div>
-          ))}
-        </div>
-      )}
+      <div className="mt-10 flex flex-row flex-wrap justify-center gap-8">
+        {technologies.map((technology) => (
+          <div
+            key={technology.name}
+            title={technology.name}
+            className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-tertiary shadow-card flex items-center justify-center p-4 hover:scale-110 transition-transform duration-200"
+          >
+            <img
+              src={technology.icon}
+              alt={technology.name}
+              className="w-full h-full object-contain"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

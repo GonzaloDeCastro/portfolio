@@ -70,7 +70,7 @@ No documentado: cloud managed (AWS/Azure/GCP), testing (Jest, Cypress), Kubernet
 - GitHub en portfolio (`github.com/GonzaloDeCastro`) — **añadir al CV**
 - Sin sección de certificaciones
 - Añadir línea: *Authorized to work in Italy (Permesso di soggiorno)*
-- Añadir sección Selected Projects (FIG Projects, Presuflow)
+- Añadir sección Selected Projects (GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido)
 
 ---
 
@@ -100,7 +100,7 @@ No documentado: cloud managed (AWS/Azure/GCP), testing (Jest, Cypress), Kubernet
 | Remote-first europeas | Inglés B2 + stack JS + experiencia remota actual |
 | AI-augmented development teams | Destacar MCP/specs/prompt engineering con ejemplos concretos |
 | Sicilia / sur de Italia | Menor competencia que Milano/Roma; networking local |
-| Proyectos del portfolio | Presuflow y Event Now demuestran producto end-to-end |
+| Proyectos del portfolio | Platform SaaS (GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido) demuestran producto end-to-end en producción |
 
 ---
 
@@ -110,5 +110,5 @@ No documentado: cloud managed (AWS/Azure/GCP), testing (Jest, Cypress), Kubernet
 2. **Cuantificar bullets** — usuarios, roles, KPIs con números reales de SEIDOR.
 3. **Subir italiano a A2/B1** — impacto directo en employability local.
 4. **Corregir About.jsx** — quitar SQL Server si no aplica; alinear con CV.
-5. **Añadir GitHub + FIG Projects / Presuflow** como prueba de ownership.
+5. **Añadir GitHub + productos Platform** como prueba de ownership.
 6. **Activar búsqueda** — 15–20 aplicaciones/mes en Tier A/B de `target-companies.md`.

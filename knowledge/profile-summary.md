@@ -2,7 +2,7 @@
 
 > Extraído de `inputs/Resume - Gonzalo De Castro.pdf`. Solo hechos documentados.
 
-**Última actualización:** 2026-06-11 (actualizado con preferencias del candidato)
+**Última actualización:** 2026-09-04 (productos Platform en portfolio)
 
 ## Datos personales
 
@@ -116,15 +116,15 @@ Software Engineer con título en Ingeniería en Sistemas y experiencia construye
 
 ## Capacidades adicionales confirmadas (proyectos personales)
 
-Evidencia principal: **FIG Projects** y otros proyectos del portfolio.
+Evidencia principal: **FIG Projects** (plataforma multi-producto en producción) y el resto del portfolio.
 
 | Capacidad | Evidencia |
 |-----------|-----------|
-| TypeScript | FIG Projects y proyectos personales |
+| TypeScript | FIG Projects / Platform (GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido) |
 | GitHub Actions | Pipelines CI/CD en proyectos personales |
-| SQL (MySQL, PostgreSQL) | SEIDOR + Presuflow, Event Now |
-| Producto end-to-end | Docker, pipelines, VPS, frontend, backend, DB |
-| VPS / deployment | Proyectos personales (FIG Projects) |
+| SQL (MySQL, PostgreSQL) | SEIDOR + Platform (PostgreSQL) + Event Now (MySQL) |
+| Producto end-to-end | Docker, Nginx, pipelines, VPS, frontend, backend, DB |
+| VPS / deployment | FIG Projects Platform en producción |
 
 **Nota:** SQL Server mencionado en `About.jsx` del portfolio — **no confirmado** por el candidato. Usar solo si hay evidencia concreta.
 
@@ -143,7 +143,11 @@ Evidencia principal: **FIG Projects** y otros proyectos del portfolio.
 
 ## Proyectos personales (portfolio web — no en CV)
 
-Documentados en `src/constants/index.js`: Presuflow, Event Now, Damas Online, Essentia Fitness, Servymac, FIG Projects, Cerveza Santa Diabla.
+Documentados en `src/constants/index.js`:
+
+**SaaS en producción (FIG Projects Platform):** GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido. Hub: `https://www.platform.figprojects.com/`.
+
+**Otros:** Event Now, Damas Online, Essentia Fitness, Servymac, Cerveza Santa Diabla, FIG Projects (sitio comercial).
 
 ## Discrepancias detectadas (portfolio vs CV)
 

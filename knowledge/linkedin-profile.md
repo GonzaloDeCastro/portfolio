@@ -1,6 +1,6 @@
 # LinkedIn Profile
 
-**Última actualización:** 2026-06-11  
+**Última actualización:** 2026-09-04  
 **URL:** https://www.linkedin.com/in/gonzalo-de-castro/
 
 ## Estado actual
@@ -72,8 +72,8 @@ Asegurar que cada rol en LinkedIn coincide con `profile-summary.md`. Bullets con
 ## Featured section
 
 - Portfolio + GitHub
-- Presuflow demo
-- Event Now / FIG Projects
+- FIG Projects Platform intros: GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido
+- Event Now
 - CV PDF (versión europea)
 
 ## Keywords para SEO LinkedIn

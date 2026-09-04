@@ -29,6 +29,7 @@ Sistema vivo de gestión de carrera para Gonzalo De Castro. La fuente de verdad 
 
 ## Última actualización
 
+**2026-09-04** — Portfolio: GymFlow, PresuFlow, SocioFlow, GsaFlow y Notas de Pedido añadidos; PresuFlow apunta a Platform.  
 **2026-06-11** — Análisis inicial del CV y creación de la base de conocimiento.  
 **2026-06-11** — Confirmado: permesso di soggiorno, búsqueda activa, flexibilidad modalidad/relocación/salario, skills E2E en proyectos personales.  
 **2026-06-11** — Disponibilidad inmediata; impacto SEIDOR (consultora, multi-escala, APIs, KPIs); GitHub confirmado.  

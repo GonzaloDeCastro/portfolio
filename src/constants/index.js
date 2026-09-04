@@ -25,10 +25,17 @@ import {
   redux,
   mongodb,
   presuflow,
+  gymflow,
+  socioflow,
+  gsaflow,
+  orders,
   tailwind,
   typescript,
   postgresql,
   express,
+  cursor,
+  claude,
+  aiTools,
   essentia,
   servimac,
   figprojects,
@@ -134,6 +141,18 @@ const technologies = [
     name: "Linux",
     icon: linux,
   },
+  {
+    name: "Cursor",
+    icon: cursor,
+  },
+  {
+    name: "Claude",
+    icon: claude,
+  },
+  {
+    name: "AI Tools",
+    icon: aiTools,
+  },
 ];
 
 const experiences = [
@@ -220,7 +239,7 @@ const projects = [
   {
     name: "FIG Projects",
     description:
-      "End-to-end product showcasing professional web development services — full-stack architecture with TypeScript, Docker, GitHub Actions CI/CD, and VPS deployment. Demonstrates ability to own a product from infrastructure to UI.",
+      "Multi-product SaaS platform in production — GymFlow, PresuFlow, SocioFlow, GsaFlow, and Notas de Pedido. Full-stack ownership from architecture to VPS: TypeScript, PostgreSQL, Docker, Nginx, and GitHub Actions CI/CD.",
     tags: [
       {
         name: "React",
@@ -246,17 +265,19 @@ const projects = [
     image: figprojects,
     source_code_link: "https://www.figprojects.com/",
     github_link: null,
+    kind: "product",
   },
   {
-    name: "Presuflow",
+    name: "GymFlow",
     description:
-      "Presuflow is an online quotation platform that allows businesses to create budgets in multiple currencies and manage composite products with reusable sub-components, enabling both complete and individual product sales through a simple and efficient interface.",
+      "SaaS for personal trainers: routines, guided workout sessions, gym check-in, and adherence tracking. Trainer dashboard plus a mobile-first experience for clients, shipped on the FIG Projects platform.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
-      },  {
-        name: "Redux",
+      },
+      {
+        name: "TypeScript",
         color: "purple-text-gradient",
       },
       {
@@ -264,22 +285,147 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "PostgreSQL",
         color: "orange-text-gradient",
       },
       {
-        name: "Express",
+        name: "Docker",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: gymflow,
+    source_code_link: "https://www.platform.figprojects.com/gymflow/intro/",
+    github_link: null,
+    kind: "product",
+  },
+  {
+    name: "PresuFlow",
+    description:
+      "Quotation and production platform: multi-currency quotes with PDF export, composite product catalogs, and a production board that tracks jobs from quote to completion.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Docker",
         color: "yellow-text-gradient",
       },
     ],
     image: presuflow,
-    source_code_link: "https://presuflow.vercel.app/",
+    source_code_link: "https://www.platform.figprojects.com/presuflow/intro/",
     github_link: null,
+    kind: "product",
+  },
+  {
+    name: "SocioFlow",
+    description:
+      "Membership and collections system for clubs and gyms: members, plans, payments, cash register, overdue accounts, and a member portal to check balances and dues.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "RBAC",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: socioflow,
+    source_code_link: "https://www.platform.figprojects.com/socioflow/intro/",
+    github_link: null,
+    kind: "product",
+  },
+  {
+    name: "GsaFlow",
+    description:
+      "Residential building management for administrations, owners, and tenants: incidents, amenity bookings, announcements, documents, work orders, and expenses in one place.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: gsaflow,
+    source_code_link: "https://www.platform.figprojects.com/gsaflow/intro/",
+    github_link: null,
+    kind: "product",
+  },
+  {
+    name: "Notas de Pedido",
+    description:
+      "Mobile-first order app for sales teams: sellers create orders on the phone, administration manages catalog and clients, and reception schedules and prints order notes as PDF.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mobile",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: orders,
+    source_code_link: "https://www.platform.figprojects.com/orders/intro/",
+    github_link: null,
+    kind: "product",
   },
   {
     name: "Event Now",
     description:
-      "Project using React on the frontend side and Node.js, Express, and MySQL on the backend. It’s an event-management application with user registration and login features. Once logged in, users can browse events, view details, and interact with organizers through a simple and intuitive interface.",
+      "Event-management application with user registration and login. Once logged in, users can browse events, view details, and interact with organizers through a simple interface.",
     tags: [
       {
         name: "React",
@@ -305,29 +451,7 @@ const projects = [
     image: eventNow,
     source_code_link: "https://event-now-frontend.vercel.app/",
     github_link: null,
-  },
-  {
-    name: "Damas Online",
-    description:
-      "Classic board game of checkers, but online, where you can play with a friend, customize each player's names, and, of course, with a board that keeps track of each player's points.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: damasOnline,
-    source_code_link:
-      "https://gonzalodecastro.github.io/Juego-de-Damas-Personalizado",
-    github_link: "https://github.com/GonzaloDeCastro/Juego-de-Damas-Personalizado",
+    kind: "product",
   },
   {
     name: "Essentia Fitness",
@@ -354,6 +478,7 @@ const projects = [
     image: essentia,
     source_code_link: "https://essentiafitness.com/",
     github_link: null,
+    kind: "client",
   },
   {
     name: "Servymac",
@@ -380,6 +505,7 @@ const projects = [
     image: servimac,
     source_code_link: "https://www.servymac.com/#about",
     github_link: null,
+    kind: "client",
   },
   {
     name: "Cerveza Santa Diabla",
@@ -406,6 +532,31 @@ const projects = [
     image: cervezasantadiabla,
     source_code_link: "https://www.cervezasantadiabla.com/",
     github_link: null,
+    kind: "client",
+  },
+  {
+    name: "Damas Online",
+    description:
+      "Classic checkers game in the browser: play with a friend, customize player names, and keep score on the board.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: damasOnline,
+    source_code_link:
+      "https://gonzalodecastro.github.io/Juego-de-Damas-Personalizado",
+    github_link: "https://github.com/GonzaloDeCastro/Juego-de-Damas-Personalizado",
+    kind: "client",
   },
 ];
 

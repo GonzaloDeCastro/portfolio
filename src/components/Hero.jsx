@@ -7,9 +7,9 @@ const Hero = () => {
   const isMobile = window.innerWidth <= 768;
 
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto overflow-hidden bg-primary">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-10`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -32,13 +32,13 @@ const Hero = () => {
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#work"
-              className="bg-[#5eacff] py-3 px-8 rounded-xl text-white font-bold shadow-md hover:opacity-90 transition-opacity"
+              className="bg-[#5eacff] py-3 px-8 rounded-xl text-white font-bold shadow-md cursor-pointer transition-all duration-200 hover:bg-[#4a9aeb] hover:shadow-lg hover:scale-105"
             >
               View Projects
             </a>
             <a
               href="#contact"
-              className="border border-secondary py-3 px-8 rounded-xl text-white font-bold hover:border-white transition-colors"
+              className="border border-secondary py-3 px-8 rounded-xl text-white font-bold cursor-pointer transition-all duration-200 hover:border-white hover:bg-white/10 hover:scale-105"
             >
               Contact Me
             </a>
@@ -50,7 +50,7 @@ const Hero = () => {
       <div
         className={`absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center top-[${
           isMobile ? "440px" : "430px"
-        }]`}
+        }] z-10`}
       >
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">

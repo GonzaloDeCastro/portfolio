@@ -1,6 +1,6 @@
 # GitHub Pages Deployment
 
-**Última actualización:** 2026-06-11
+**Última actualización:** 2026-09-04
 
 ## URL en producción
 
@@ -52,6 +52,7 @@ Obligatorio para project sites (`username.github.io/repo-name/`). Usar ruta rela
 |-------|--------|--------|-------|
 | 2026-06-11 | `npx gh-pages -d dist` | local build | Publicado a rama `gh-pages` |
 | 2026-06-11 | `git push origin main` | `6216cd9` | Dispara GitHub Actions workflow |
+| 2026-09-04 | push `main` + `npm run deploy` | productos Platform | GymFlow, PresuFlow, SocioFlow, GsaFlow, Notas de Pedido |
 
 ## Checklist post-deploy
 

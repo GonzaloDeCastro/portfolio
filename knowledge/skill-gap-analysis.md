@@ -1,6 +1,6 @@
 # Skill Gap Analysis
 
-**Última actualización:** 2026-06-11 (actualizado)  
+**Última actualización:** 2026-09-04  
 **Mercado objetivo:** Software Engineer — Italia y Europa
 
 ## Matriz de brechas
@@ -8,8 +8,8 @@
 | Skill | Estado actual | Demanda EU | Prioridad | Acción recomendada |
 |-------|---------------|------------|-----------|-------------------|
 | Italiano | A1 | Alta (local) | 🔴 Crítica | Curso intensivo → objetivo B1 en 6 meses |
-| TypeScript | Proyectos personales (FIG Projects) | Alta | 🟡 Media | Añadir al CV; opcional migrar Presuflow |
-| Testing (unit/e2e) | No documentado | Alta | 🟠 Alta | Jest + React Testing Library en Presuflow/Event Now |
+| TypeScript | FIG Projects Platform (producción) | Alta | ✅ Cubierto | Añadir al CV |
+| Testing (unit/e2e) | No documentado | Alta | 🟠 Alta | Jest + React Testing Library en un producto Platform |
 | Cloud (AWS/Azure) | No documentado | Alta | 🟠 Alta | AWS Cloud Practitioner o proyecto con S3/Lambda |
 | System design | Implícito | Media–Alta | 🟡 Media | Preparar 3 casos: API design, DB schema, scaling |
 | Kubernetes | No documentado | Media | 🟡 Media | Nice-to-have; Docker Compose suficiente para junior-mid |
@@ -27,7 +27,7 @@
 ### Full-Stack (target principal)
 **Gaps:** TypeScript, testing, cloud deployment  
 **Plan 90 días:**
-1. Semanas 1–4: TypeScript + tests en Presuflow
+1. Semanas 1–4: tests en un producto Platform (GymFlow o PresuFlow)
 2. Semanas 5–8: Deploy en AWS (EC2 o ECS) o Railway/Render con IaC básico
 3. Semanas 9–12: Documentar en CV y portfolio
 
